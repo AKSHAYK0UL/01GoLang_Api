@@ -50,7 +50,7 @@ func main() {
 	if port == "" {
 		port = "4000"
 	}
-	log.Fatal(http.ListenAndServe(":0.0.0.0:"+port, r))
+	log.Fatal(http.ListenAndServe(":"+port, r))
 }
 
 // On Home Page
