@@ -55,7 +55,7 @@ func main() {
 
 // On Home Page
 func serveHome(w http.ResponseWriter, r *http.Request) {
-	w.Write([]byte("<h1>Welcome To Goland backend</h1>"))
+	w.Write([]byte("<h1>Welcome To Golang backend</h1>"))
 }
 
 // Get all Courses
