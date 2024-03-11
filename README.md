@@ -1,2 +1,2 @@
 api link:-
-https://goapi-fxty.onrender.com
+https://golangapi-ka3a.onrender.com
